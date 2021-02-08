@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">مزه</string>
+    <string name="search">جستجو</string>
+    <string name="resultSearch">  نتیجه جستجو</string>
+    <string name="tamasbama">تماس با ما</string>
+    <string name="darbarema">درباره ما</string>
+    <string name="exit"> خروج از حساب کاربری</string>
+    <string name="vorud">ورود</string>
+    <string name="sabtnam">ثبت نام</string>
+    <string name="sonati"> غذاهای سنتی </string>
+    <string name="modern"> غذاهای مدرن </string>
+    <string name="nologin"> قبلا ثبت نام نکرده ام !!! </string>
+    <string name="login"> قبلا ثبت نام کرده ام !!! </string>
+    <string name="mavad_lazem"> مواد لازم  </string>
+    <string name="tarz_tahie"> طرز تهیه   </string>
+    <string name="restaurant"> رستوران ها   </string>
+    <string name="about">
+        هدف از ساخت نرم افزار آشپزی امروز غذا چی بپزم؟\n
+        برای آسانی و راحتی شما دوستداران آشپزی هست.\n
+        این برنامه با دارا بودن انواع دستورهای غذایی لذیذ و متنوع همراه با چندین دسته مختلف تمامی نیازهای شما را برای یک آشپزی ساده و راحت اما بسیار دلپذیر فراهم کرده است.\n
+        به علاوه طراحی ساده اما چشم نداز محیط کاربری لذت استفاده ازاین برنامه را برایتان دو چندان کرده است.\n
+        آیا میخواهید بدون نیاز به کتاب های حجیم آشپزی غذا بپزید؟\n
+        آیا میخواهید دستورات غذایتان را همیشه همراه داشته باشید؟\n
+        آیا میخواهید با غذاهای سنتی و روز آشنا شوید؟
+    </string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layoutDirection="rtl"
+    android:background="@color/withe"
+    tools:context=".login">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/logo"
+            android:id="@+id/logo"
+            android:background="@drawable/shape_border_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="16dp"
+            />
+
+        <EditText
+            android:id="@+id/username_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_search"
+            android:inputType="text"
+            android:hint="نام کاربری"
+            android:textColorHint="@color/withe"
+            android:textColor="@color/withe"
+            android:textSize="12sp"
+            android:padding="5dp"
+            android:textDirection="rtl"
+            android:layout_margin="6dp"
+            android:layout_below="@id/logo"/>
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_search"
+            android:inputType="numberPassword"
+            android:hint="رمز عبور"
+            android:maxLength="8"
+            android:textColorHint="@color/withe"
+            android:textColor="@color/withe"
+            android:textSize="12sp"
+            android:padding="5dp"
+            android:textDirection="rtl"
+            android:textAlignment="viewStart"
+            android:layout_margin="6dp"
+            android:layout_below="@id/username_login"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vorud"
+            android:id="@+id/ok_sing_up"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/shape_frg"
+            android:textColor="@color/white"
+            android:layout_below="@id/password_login"/>
+        <TextView
+            android:id="@+id/txtgotosingup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nologin"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ok_sing_up"
+            android:textColor="@color/colorSecondaryText"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
