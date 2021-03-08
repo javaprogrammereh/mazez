@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import com.example.maze.model.SharedPreferencesManager;
 import com.example.maze.model.userApp;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+//import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class MainActivity extends AppCompatActivity {
     Button restaurant,modern,sonati,exit;
@@ -87,10 +87,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     //======================change font===============================
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
-    }
+//    @Override
+//    protected void attachBaseContext(Context newBase) {
+//        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+//    }
 
     //====================for stop music=======================
     @Override

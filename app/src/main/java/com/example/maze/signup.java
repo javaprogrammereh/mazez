@@ -18,7 +18,7 @@ import com.example.maze.model.userApp;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+//import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class signup extends AppCompatActivity {
 
@@ -114,8 +114,8 @@ public class signup extends AppCompatActivity {
         return isValid;
     }
     //======================change font===============================
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
-    }
+//    @Override
+//    protected void attachBaseContext(Context newBase) {
+//        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+//    }
 }

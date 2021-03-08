@@ -18,7 +18,7 @@ import com.example.maze.model.Item_recycler;
 
 import java.util.ArrayList;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+//import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class search extends AppCompatActivity {
     /*create object for xml*/
@@ -122,8 +122,8 @@ public class search extends AppCompatActivity {
     }
 
     //======================change font===============================
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
-    }
+//    @Override
+//    protected void attachBaseContext(Context newBase) {
+//        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+//    }
 }

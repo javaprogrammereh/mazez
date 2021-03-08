@@ -16,7 +16,7 @@ import com.example.maze.model.Item_recycler;
 import java.util.ArrayList;
 import java.util.List;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+//import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class sonati extends AppCompatActivity {
     RecyclerView recyclerView_sonati;
@@ -149,8 +149,8 @@ public class sonati extends AppCompatActivity {
                 "طرز تهیه سنتی"));
     }
     //======================change font===============================
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
-    }
+//    @Override
+//    protected void attachBaseContext(Context newBase) {
+//        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+//    }
 }

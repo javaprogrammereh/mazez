@@ -16,7 +16,7 @@ import com.example.maze.model.Item_recycler;
 import java.util.ArrayList;
 import java.util.List;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+//import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class modern extends AppCompatActivity {
     RecyclerView recyclerView_modern;
@@ -131,8 +131,8 @@ public class modern extends AppCompatActivity {
                         "البته میتوانید ماکارونی و مایه گوشت را قبل ریختن در قابلمه با هم مخلوط کنید و یکجا در قابلمه بریزید و دم دهید.\n"));
     }
     //======================change font===============================
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
-    }
+//    @Override
+//    protected void attachBaseContext(Context newBase) {
+//        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+//    }
 }

@@ -15,7 +15,7 @@ import android.widget.Toast;
 import com.example.maze.model.SharedPreferencesManager;
 import com.example.maze.model.userApp;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+//import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class login extends AppCompatActivity {
     /*controls SharedPreferencesManager class*/
@@ -93,10 +93,10 @@ public class login extends AppCompatActivity {
     }
 
     //======================change font===============================
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
-    }
+//    @Override
+//    protected void attachBaseContext(Context newBase) {
+//        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+//    }
 
     /*1.method return value exit for Sign out of account */
     public String returnExit() {

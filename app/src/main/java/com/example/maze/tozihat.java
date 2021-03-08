@@ -12,7 +12,7 @@ import com.example.maze.adapter.AdapterSearch;
 import com.example.maze.adapter.ItemAdapter_recycler_modern;
 import com.example.maze.adapter.ItemAdapter_recycler_sonati;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+//import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class tozihat extends AppCompatActivity {
     /*create object for xml*/
@@ -61,8 +61,8 @@ public class tozihat extends AppCompatActivity {
         });
     }
     //======================change font===============================
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
-    }
+//    @Override
+//    protected void attachBaseContext(Context newBase) {
+//        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+//    }
 }
